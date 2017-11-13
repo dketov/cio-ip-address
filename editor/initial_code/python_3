@@ -1,0 +1,13 @@
+def ip_address(string):
+    """
+        Converts string IP representaition into integer (network order)
+    """
+    # your code here
+    return 0
+
+
+if __name__ == '__main__':    
+    # These "asserts" are used for self-checking and not for an auto-testing
+    assert ip_address("127.0.0.1") == 2130706433, "127.0.0.1"
+    assert ip_address("192.168.0.1") == 3232235521, "192.168.0.1"
+    print("Coding complete? Click 'Check' to earn cool rewards!")

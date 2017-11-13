@@ -1,0 +1,16 @@
+"use strict";
+
+function ipAddress(a, b) {
+    // Converts string IP representaition into network order integer
+
+    // your code here
+    return 0;
+}
+
+var assert = require('assert');
+if (!global.is_checking) {
+    // These "asserts" are used for self-checking and not for an auto-testing
+    assert.equal(ipAddress("127.0.0.1"), 2130706433)
+    assert.equal(ipAddress("192.168.0.1"), 3232235521)
+    console.log("Coding complete? Click 'Check' to earn cool rewards!");
+}
